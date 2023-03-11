@@ -1,0 +1,2 @@
+Med-Chain is a blockchain-based platform for managing medical records. The use of blockchain technology ensures that the records are secure and tamper-proof. Patients have complete ownership and control over their data, which can be accessed from anywhere.
+The platform is user-friendly, making it easier for patients to manage their medical records.
