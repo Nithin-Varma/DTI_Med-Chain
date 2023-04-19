@@ -15,11 +15,13 @@ export const deserialiseUser = (data: any): User => {
 export const deserialiseDoc = async (data: any): Promise<Doc_User> => {
   let response;
   let tokenDetailJson;
+  console.log(data[2]);
   try {
     response = await fetch(data[2]);
     tokenDetailJson = await response.json();
   } catch (err) {
     console.log(err);
+    console.log(data[2]);
   }
   console.log({ tokenDetailJson });
 
